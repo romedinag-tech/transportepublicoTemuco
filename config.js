@@ -1,4 +1,4 @@
-/* Config de ciudad — shell compartido (_motor/dashboard_kit). live=false: sin feed (aún sin captura). */
+/* Config de ciudad — shell compartido (_motor/dashboard_kit). live=true: feed GTFS-RT vía capturador Cloud Run. */
 window.CITY = {
   slug: "temuco",
   nombre: "Temuco",
@@ -6,8 +6,8 @@ window.CITY = {
   lat0: -38.7432, lon0: -72.6074,
   comunas: ["Temuco", "Padre Las Casas"],
   comunasGeojson: "comunas_temuco.geojson",
-  live: false,
-  liveBase: "",
+  live: true,
+  liveBase: "https://storage.googleapis.com/temuco-transporte-live/",
   repo: "transportepublicoTemuco",
   voz: {"ejeSing": "eje", "ejePlur": "ejes", "EjePlur": "Ejes"},
 };
