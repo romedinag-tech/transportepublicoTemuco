@@ -8,6 +8,7 @@ window.CITY = {
   comunasGeojson: "comunas_temuco.geojson",
   live: true,
   liveBase: "https://storage.googleapis.com/temuco-transporte-live/",
+  demanda: true,                        // 3er modo: validaciones del medio de pago (abordajes)
   repo: "transportepublicoTemuco",
   voz: {"ejeSing": "eje", "ejePlur": "ejes", "EjePlur": "Ejes"},
 };
